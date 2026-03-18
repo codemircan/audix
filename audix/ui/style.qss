@@ -1,0 +1,100 @@
+QWidget {
+    background-color: #181818;
+    color: #E4E4E4;
+    font-family: "Segoe UI", "Roboto", "Helvetica", sans-serif;
+    font-size: 14px;
+}
+
+QMainWindow {
+    background-color: #181818;
+}
+
+QComboBox {
+    background-color: #2a2a2a;
+    border: 1px solid #333333;
+    border-radius: 8px;
+    padding: 8px 12px;
+    color: #E4E4E4;
+}
+
+QComboBox::drop-down {
+    border: 0px;
+}
+
+QPushButton {
+    background-color: #2a2a2a;
+    border: 1px solid #333333;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-weight: bold;
+    color: #E4E4E4;
+}
+
+QPushButton:hover {
+    background-color: #3a3a3a;
+}
+
+QPushButton:pressed {
+    background-color: #444444;
+}
+
+QPushButton#record-btn {
+    font-size: 16px;
+    min-height: 40px;
+}
+
+QPushButton#record-btn:checked {
+    background-color: #00D1FF;
+    color: #181818;
+}
+
+QPushButton#play-btn {
+    background-color: #00D1FF;
+    color: #181818;
+    border: none;
+}
+
+QPushButton#play-btn:hover {
+    background-color: #00B0D9;
+}
+
+QPushButton#delete-btn {
+    background-color: #333333;
+    color: #E4E4E4;
+    border: 1px solid #444444;
+}
+
+QPushButton#delete-btn:hover {
+    background-color: #CC0000;
+    color: white;
+}
+
+QStatusBar {
+    background-color: #121212;
+    color: #888888;
+    border-top: 1px solid #222222;
+}
+
+QLabel#timer-label {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 36px;
+    font-weight: bold;
+    color: #00D1FF;
+}
+
+QRadioButton::indicator {
+    width: 18px;
+    height: 18px;
+    border-radius: 10px;
+    border: 2px solid #333333;
+    background-color: #181818;
+}
+
+QRadioButton::indicator:checked {
+    background-color: #00D1FF;
+    border-color: #00D1FF;
+}
+
+QRadioButton::indicator:hover {
+    border-color: #00D1FF;
+}
